@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Online EstiloX</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 { color: #ff3399; }
+    p { color: #333; }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .producto {
+      width: 300px;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background: white;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .precio {
+      font-size: 18px;
+      color: #ff4da6;
+      font-weight: bold;
+    }
+    .boton-whatsapp {
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>EstiloX | Moda importada✨</h1>
+<p>Tenemos lo mejor en ropa y accesorios para toda la familia.🔥 </p>
+
+<div class="productos">
+
+  <!-- Producto 1 -->
+  <div class="producto">
+    <h2>Vestido Floral 🌸</h2>
+    <img src="https://i.ibb.co/abc123/ejemplo-vestido.jpg" alt="Vestido Floral">
+    <p class="precio">S/ 35.00</p>
+    <a href="https://wa.me/51946694573?text=Hola%20quiero%20el%20Vestido%20Floral" 
+       target="_blank" class="boton-whatsapp">Comprar por WhatsApp</a>
+  </div>
+
+  <!-- Producto 2 -->
+  <div class="producto">
+    <h2>Blusa Elegante ✨</h2>
+    <img src="https://picsum.photos/300/351" alt="Blusa Elegante">
+    <p class="precio">S/ 29.00</p>
+    <a href="https://wa.me/51946694573?text=Hola%20quiero%20la%20Blusa%20Elegante" 
+       target="_blank" class="boton-whatsapp">Comprar por WhatsApp</a>
+  </div>
+
+</div>
+
+</body>
+</html>
